@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>hungryPizza.Api</name>
+    </assembly>
+    <members>
+        <member name="M:hungryPizza.Api.Controllers.ClientesController.GetClientes">
+            <summary>
+            Retorna todos os clientes
+            </summary>
+        </member>
+        <member name="M:hungryPizza.Api.Controllers.ClientesController.GetClientePorId(System.Int32)">
+            <summary>
+            Retorna o cliente pelo Id
+            </summary>
+        </member>
+        <member name="M:hungryPizza.Api.Controllers.ClientesController.InserirCliente(hungryPizza.Core.DTOs.ClientesDTO)">
+            <summary>
+            Inserir novo cliente
+            </summary>
+        </member>
+        <member name="M:hungryPizza.Api.Controllers.PedidosController.GetPedidos">
+            <summary>
+            Retorna todos os pedidos
+            </summary>
+        </member>
+        <member name="M:hungryPizza.Api.Controllers.PedidosController.GetPedidosPorCliente(System.Int32)">
+            <summary>
+            Retorna os pedidos pelo id do cliente
+            </summary>
+        </member>
+        <member name="M:hungryPizza.Api.Controllers.PedidosController.InserirPedido(hungryPizza.Core.DTOs.PedidosDTO)">
+            <summary>
+            Inserir novo pedido
+            </summary>
+        </member>
+        <member name="M:hungryPizza.Api.Controllers.PizzasController.GetPizzas">
+            <summary>
+            Retorna todas as pizzas
+            </summary>
+        </member>
+    </members>
+</doc>
